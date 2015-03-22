@@ -65,4 +65,5 @@ The input data containts the following data files:
 
 ##Read and View Data Set
 
-At the end of the script run-analysis.R it was included the fuction to read the text file "TidyData.txt" that is data <- read.table("TidyData.txt"), in addition to that the script also includes View(data) to open an R-Studio window to show the table in a more appealing way.
+At the end of the script run-analysis.R it was included the fuction to read the text file "TidyData.txt" that is        
+data <- read.table("TidyData.txt"), in addition to that the script also includes View(data) to open an R-Studio window to show the table in a more appealing way.

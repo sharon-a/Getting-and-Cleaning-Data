@@ -45,18 +45,18 @@ The input data containts the following data files:
 * "Activity" is factorized.
 
 * "pulledData" names replaced with descriptive labels:
-   -names(pulledData)<-gsub("Acc", "Accelerometer", names(pulledData))
-   -names(pulledData)<-gsub("Gyro", "Gyroscope", names(pulledData))
-   -names(pulledData)<-gsub("BodyBody", "Body", names(pulledData))
-   -names(pulledData)<-gsub("Mag", "Magnitude", names(pulledData))
-   -names(pulledData)<-gsub("^t", "Time", names(pulledData))
-   -names(pulledData)<-gsub("^f", "Frequency", names(pulledData))
-   -names(pulledData)<-gsub("tBody", "TimeBody", names(pulledData))
-   -names(pulledData)<-gsub("-mean()", "Mean", names(pulledData), ignore.case = TRUE)
-   -names(pulledData)<-gsub("-std()", "STD", names(pulledData), ignore.case = TRUE)
-   -names(pulledData)<-gsub("-freq()", "Frequency", names(pulledData), ignore.case = TRUE)
-   -names(pulledData)<-gsub("angle", "Angle", names(pulledData))
-   -names(pulledData)<-gsub("gravity", "Gravity", names(pulledData))
+   - names(pulledData)<-gsub("Acc", "Accelerometer", names(pulledData))
+   - names(pulledData)<-gsub("Gyro", "Gyroscope", names(pulledData))
+   - names(pulledData)<-gsub("BodyBody", "Body", names(pulledData))
+   - names(pulledData)<-gsub("Mag", "Magnitude", names(pulledData))
+   - names(pulledData)<-gsub("^t", "Time", names(pulledData))
+   - names(pulledData)<-gsub("^f", "Frequency", names(pulledData))
+   - names(pulledData)<-gsub("tBody", "TimeBody", names(pulledData))
+   - names(pulledData)<-gsub("-mean()", "Mean", names(pulledData), ignore.case = TRUE)
+   - names(pulledData)<-gsub("-std()", "STD", names(pulledData), ignore.case = TRUE)
+   - names(pulledData)<-gsub("-freq()", "Frequency", names(pulledData), ignore.case = TRUE)
+   - names(pulledData)<-gsub("angle", "Angle", names(pulledData))
+   - names(pulledData)<-gsub("gravity", "Gravity", names(pulledData))
 
 * Load library(plyr) and library(data.table)
 * "tidy1" is created as a set with average for each activity and subject of "mergedData" 
